@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Example">
+
+        <!--  键盘背景  -->
+        <item name="android:background">@drawable/ic_launcher_foreground</item>
+        <item name="settingBackground">@drawable/ic_launcher_background</item>
+
+
+        <!--  按键文字  -->
+        <item name="keyTextSize">@dimen/word_text_size</item>
+        <item name="keyTextColor">#ff036f</item>
+        <item name="hintTextColor">#ff036f</item>
+        <item name="hintTextSize">5sp</item>
+        <item name="hintLabelAlign">0</item>
+        <item name="hintLabelVAlign">6</item>
+    </style>
+
+
+</resources>
